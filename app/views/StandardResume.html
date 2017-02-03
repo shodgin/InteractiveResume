@@ -1,0 +1,21 @@
+<div ng-controller="resumeCtrl">
+    <h1>{{data.personalInfo.firstName }} {{data.personalInfo.lastName}}</h1>
+    <div>{{data.personalInfo.email}} | {{data.personalInfo.phone}}</div>
+
+    <h2>Objective</h2>
+    <div>{{data.objective}}</div>
+
+    <h2>Experience</h2>
+    <div ng-repeat="job in data.workHistory">
+        {{job.title}} | {{job.employer.name}} | {{job.startDate}} - {{job.endDate}}
+        <ul>
+            <li ng-repeat="item in job.responsibilities">{{item}}</li>
+        </ul>
+    </div>
+
+    <h2>Education</h2>
+    <div ng-repeat="school in data.education">
+        {{school.degree}}, Minor in {{school.minor}}
+        {{school.institution.name}} | {{school.institution.city}}, {{school.institution.state}} ... {{school.graduationDate}}
+    </div>
+</div>

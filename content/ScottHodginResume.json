@@ -1,0 +1,112 @@
+{
+    "personalInfo": {
+        "firstName": "Scott",
+        "lastName": "Hodgin",
+        "streetAddress": "9930 W 59th Ave #304",
+        "city": "Arvada",
+        "state": "Colorado",
+        "zip": "80004",
+        "phone": "7577484948",
+        "email": "scotthodgin@gmail.com"
+    },
+    "objective": "Seeking a High Level Software Developer position that focuses on writing object oriented unit testable code.",
+    "workHistory": [
+        {
+            "employer": {
+                "name": "Anthem",
+                "streetAddress": "",
+                "city": "",
+                "state": "",
+                "zip": "",
+                "phone": ""
+            },
+            "title": "Senior Software Developer",
+            "startDate": "2014-09-02",
+            "endDate": "2017-01-05",
+            "responsibilities": [
+                "Architected and Implemented a system for automatically assigning Primary Care Physicians to new customers",
+                "Responsible designing and maintaining automated unit and integration tests",
+                "Created several front end web pages for customer facing access to reporting and configuration data, using WebAPI and Angular",
+                "Maintained automated builds using Bamboo",
+                "Designing and maintained automated unit and integration tests"
+            ]
+        },
+        {
+            "employer": {
+                "name": "Innova Systems",
+                "streetAddress": "",
+                "city": "Norfolk",
+                "state": "Virginia",
+                "zip": "",
+                "phone": ""
+            },
+            "title": "Lead Software Engineer",
+            "startDate": "2011-04-04",
+            "endDate": "2014-08-29",
+            "responsibilities": [
+                "Supervised a team of software engineers and database developers in the development of a .NET web application",
+                "Created web pages using HTML, Javascript, jQuery and CSS",
+                "Created server side .NET code responsible for providing  communication between SQL server databases and the user facing web pages",
+                "Initiated a three year effort to modernize a legacy web application and eliminate technical debt",
+                "Redesigned a web application’s architecture to use a tiered architecture consisting of data access, business services, and user interface layers",
+                "Integrated Entity Framework into the application as the primary data access technology",
+                "Upgraded the products build infrastructure to TFS 2010 Workflow builds",
+                "Created WIX installers for the product and all of its supporting services",
+                "Wrote fully unit testable code using the NSubstitute framework and MSTest",
+                "Conducted all work under the CMMI Level 3 software development process"
+            ]
+        },
+        {
+            "employer": {
+                "name": "Liberty Tax Service",
+                "streetAddress": "",
+                "city": "",
+                "state": "",
+                "zip": "",
+                "phone": ""
+            },
+            "title": "Software Devloper",
+            "startDate": "2007-09-03",
+            "endDate": "2011-04-01",
+            "responsibilities": [
+                "Responsible for developing, maintaining, and debugging a large tax software product",
+                "Spearheaded a regression testing initiative which involved collaborating on an integration testing platform capable of running automated tests over nightly builds",
+                "Created a system for analyzing user data to create targeted integration tests that could efficiently maximize test coverage",
+                "Created small applications and scripts to streamline and automate routine task performed by the development team",
+                "Met time sensitive deadlines for coding cycles and product releases",
+                "Participated in producing software specifications and documentation"
+            ]
+        },
+        {
+            "employer": {
+                "name": "Department of Defense (NAVSEA CDSA ITMS)",
+                "streetAddress": "",
+                "city": "",
+                "state": "",
+                "zip": "",
+                "phone": ""
+            },
+            "title": "Computer Engineer Intern",
+            "startDate": "2004-06-01",
+            "endDate": "2004-12-20",
+            "responsibilities": [
+                "Aided in the design and development of a rugidized computer system",
+                "Involved in this system’s fabrication and implementation",
+                "Collaborated with design and implementation of embedded digital systems",
+                "Performed system testing and diagnostics"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": {
+                "name" : "Old Dominion University",
+                "city" : "Norfolk",
+                "state": "Virginia"
+            },
+            "degree" : "B.S. in Computer Engineering",
+            "minor" : "Computer Science",
+            "graduationDate" : "2005-12-18"
+        }
+    ]
+}

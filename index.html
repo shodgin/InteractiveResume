@@ -3,12 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title>Scott Hodgin's Resume</title>
-
+        <link rel="stylesheet" href="content/css/resume.css">
+        <link rel="stylesheet" href="content/css/bootstrap.min.css">
+        <link rel="stylesheet" href="content/css/bootstrap-theme.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
     </head>
     <body>
-        <div ng-app="resumeApp">
-            <div ng-include="'app/views/StandardResume.html'"></div>
+        <div ng-app="resumeApp" ng-controller="resumeCtrl">
+            <header class="header navbar navbar-default text-center">
+                <h1>{{data.personalInfo.firstName }} {{data.personalInfo.lastName}} |<small> {{data.personalInfo.title}}</small></h1>
+            </header>
+            <div class="contact">
+                <h5><a href="mailto:{{data.personalInfo.email}}">{{data.personalInfo.email}}</a> | {{data.personalInfo.phone}}</h5>
+            </div>
+            <div class="container">
+                <div ng-include="'app/views/StandardResume.html'"></div>
+            </div>
         </div>
     </body>
 

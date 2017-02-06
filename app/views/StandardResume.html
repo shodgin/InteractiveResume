@@ -1,15 +1,18 @@
-<div ng-controller="resumeCtrl">
-    <h1>{{data.personalInfo.firstName }} {{data.personalInfo.lastName}}</h1>
-    <div>{{data.personalInfo.email}} | {{data.personalInfo.phone}}</div>
-
+<div>
     <h2>Objective</h2>
     <div>{{data.objective}}</div>
 
     <h2>Experience</h2>
     <div ng-repeat="job in data.workHistory">
-        {{job.title}} | {{job.employer.name}} | {{job.startDate}} - {{job.endDate}}
-        <ul>
-            <li ng-repeat="item in job.responsibilities">{{item}}</li>
+        <h3><strong>{{job.title}}</strong></h3>&nbsp&nbsp
+        |&nbsp&nbsp<a href="{{job.employer.website}}"> 
+            <img src="../../content/images/{{job.employer.logo}}" alt="{{job.employer.name}}" style="{{job.employer.logoStyle}}">
+        </a>&nbsp&nbsp
+        |&nbsp&nbsp{{job.startDate | date: 'MMM yyyy'}} - {{job.endDate | date: 'MMM yyyy'}}
+        <ul class="list-unstyled">
+            <li ng-repeat="item in job.responsibilities">
+                &nbsp&nbsp&nbsp<span class="glyphicon glyphicon-minus darkgreen"></span>&nbsp&nbsp&nbsp{{item}}
+            </li>
         </ul>
     </div>
 

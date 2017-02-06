@@ -6,10 +6,36 @@
         "city": "Arvada",
         "state": "Colorado",
         "zip": "80004",
-        "phone": "7577484948",
-        "email": "scotthodgin@gmail.com"
+        "phone": "757.748.4948",
+        "email": "scotthodgin@gmail.com",
+        "title": "developer"
     },
     "objective": "Seeking a High Level Software Developer position that focuses on writing object oriented unit testable code.",
+    "statement": "statement",
+    "technology": [
+        "c# .net",
+        "javascript",
+        "angularjs",
+        "web API",
+        "python",
+        "html",
+        "git",
+        "svn",
+        "TFS",
+        "Sql Sever",
+        "Oracle",
+        "linq",
+        "jQuery"
+    ],
+    "skills": [
+        "Test Driven Design",
+        "Dependency Injection",
+        "Mocking Frameworks",
+        "Creating architectures bassed off classic Design Patterns",
+        "Managing Developers",
+        "kiss!",
+        "managing techinical debt"
+    ],
     "workHistory": [
         {
             "employer": {
@@ -18,7 +44,10 @@
                 "city": "",
                 "state": "",
                 "zip": "",
-                "phone": ""
+                "phone": "",
+                "logo": "AnthemLogo.png",
+                "logoStyle": "height: 40px;",
+                "website": "http://www.anthem.com"
             },
             "title": "Senior Software Developer",
             "startDate": "2014-09-02",
@@ -38,7 +67,10 @@
                 "city": "Norfolk",
                 "state": "Virginia",
                 "zip": "",
-                "phone": ""
+                "phone": "",
+                "logo": "InnovaSystemsLogo.png",
+                "logoStyle": "height: 30px;",
+                "website": "http://www.innovasi.com/"
             },
             "title": "Lead Software Engineer",
             "startDate": "2011-04-04",
@@ -63,7 +95,10 @@
                 "city": "",
                 "state": "",
                 "zip": "",
-                "phone": ""
+                "phone": "",
+                "logo": "LibertyTaxLogo.svg",
+                "logoStyle": "height: 30px;margin-top: -15px;",
+                "website": "https://www.libertytax.com/"
             },
             "title": "Software Devloper",
             "startDate": "2007-09-03",
@@ -84,7 +119,10 @@
                 "city": "",
                 "state": "",
                 "zip": "",
-                "phone": ""
+                "phone": "",
+                "logo": "NavSeaLogo.jpeg",
+                "logoStyle": "height: 30px;",
+                "website": "http://www.navsea.navy.mil/"
             },
             "title": "Computer Engineer Intern",
             "startDate": "2004-06-01",
@@ -108,5 +146,12 @@
             "minor" : "Computer Science",
             "graduationDate" : "2005-12-18"
         }
+    ],
+    "references":[
+        {"name": "John Fielder"},
+        {"name": "Noah Disenso"},
+        {"name": "Gary Hibbard"},
+        {"name": "Amy Sessler"},
+        {"name": "Mario Heack"}
     ]
 }

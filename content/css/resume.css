@@ -1,0 +1,40 @@
+.darkgreen {
+    color: #1c741c;
+}
+.green {
+  color: #26a226;
+}
+
+.header {
+  background: #1c741c !important;
+  background: -webkit-linear-gradient(#1c741c, #26a226) !important;
+  background:    -moz-linear-gradient(#1c741c, #26a226) !important;
+  background:         linear-gradient(#1c741c, #26a226) !important;
+  border: 0px !important;
+  border-radius: 0px !important;
+  color: white !important;
+  padding: 25px;
+}
+
+h1 small {
+  color: white !important;
+}
+
+h2,h3,h4,h5,h6 {
+  color: #1c741c !important;
+}
+
+.contact {
+  float: right;
+  color: #1c741c !important;
+  padding-right: 10px;
+  margin-top: -20px;
+}
+
+a {
+  color: #1c741c !important;
+}
+
+strong {
+  color: #777;
+}

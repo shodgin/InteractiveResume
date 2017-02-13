@@ -2,23 +2,35 @@
     <h2>Objective</h2>
     <div>{{data.objective}}</div>
 
+    <h2>Technology</h2>
+    <div class="row">
+        <div ng-repeat="catagory in getTechCatagories()" class="col-lg-2 col-md-lg-3 col-sm-4 col-xs-6">
+            <h4>{{catagory}}</h4>
+            <div ng-repeat="tech in getTech(catagory)">{{tech.name}}</div>
+        </div>
+    </div>
+
     <h2>Experience</h2>
     <div ng-repeat="job in data.workHistory">
-        <h3><strong>{{job.title}}</strong></h3>&nbsp&nbsp
-        |&nbsp&nbsp<a href="{{job.employer.website}}"> 
-            <img src="../../content/images/{{job.employer.logo}}" alt="{{job.employer.name}}" style="{{job.employer.logoStyle}}">
-        </a>&nbsp&nbsp
-        |&nbsp&nbsp{{job.startDate | date: 'MMM yyyy'}} - {{job.endDate | date: 'MMM yyyy'}}
+        <div ng-include="'app/views/EmployerLogo.html'" class="hidden-md hidden-lg"></div>
+        <div>
+            <span ng-include="'app/views/EmployerLogo.html'" class="hidden-sm hidden-xs"></span>
+            <span class="darkgreen hidden-sm hidden-xs">&nbsp&nbsp|&nbsp&nbsp</span>               
+            <strong >{{job.title}}</strong>
+            <span class="darkgreen">&nbsp&nbsp|&nbsp&nbsp</span>
+            <span> {{job.startDate | date: 'MMM yyyy'}} - {{job.endDate | date: 'MMM yyyy'}} </span>
+        </div>
         <ul class="list-unstyled">
             <li ng-repeat="item in job.responsibilities">
-                &nbsp&nbsp&nbsp<span class="glyphicon glyphicon-minus darkgreen"></span>&nbsp&nbsp&nbsp{{item}}
+                <span class="glyphicon glyphicon-minus darkgreen"></span>
+                <span class="">{{item}}</span>
             </li>
         </ul>
     </div>
-
     <h2>Education</h2>
     <div ng-repeat="school in data.education">
-        {{school.degree}}, Minor in {{school.minor}}
-        {{school.institution.name}} | {{school.institution.city}}, {{school.institution.state}} ... {{school.graduationDate}}
+        <span ng-include="'app/views/SchoolLogo.html'"></span>
+        <strong>{{school.degree}}, Minor in {{school.minor}}</strong>
+        {{school.institution.city}}, {{school.institution.state}} ... {{school.graduationDate | date: 'MMM yyyy'}}
     </div>
 </div>

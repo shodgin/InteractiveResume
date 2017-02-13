@@ -13,19 +13,71 @@
     "objective": "Seeking a High Level Software Developer position that focuses on writing object oriented unit testable code.",
     "statement": "statement",
     "technology": [
-        "c# .net",
-        "javascript",
-        "angularjs",
-        "web API",
-        "python",
-        "html",
-        "git",
-        "svn",
-        "TFS",
-        "Sql Sever",
-        "Oracle",
-        "linq",
-        "jQuery"
+        {
+            "name": "HTML 5",
+            "catagory": "Frontend",
+            "rank": "1"
+        },
+        {
+            "name": "javascript",
+            "catagory": "Frontend",
+            "rank": "2"
+        },
+        {
+            "name": "jQuery",
+            "catagory": "Frontend",
+            "rank": "3"
+        },
+        {
+            "name": "Angular",
+            "catagory": "Frontend",
+            "rank": "4"
+        },
+        {
+            "name": "C# .net",
+            "catagory": "Backend",
+            "rank": "1"
+        },
+        {
+            "name": "web API",
+            "catagory": "Backend",
+            "rank": "2"
+        },
+        {
+            "name": "linq",
+            "catagory": "Backend",
+            "rank": "3"
+        },
+        {
+            "name": "Python",
+            "catagory": "Backend",
+            "rank": "4"
+        },
+        {
+            "name": "SQL Server",
+            "catagory": "Database",
+            "rank": "1"
+        },
+        {
+            "name": "Oracle",
+            "catagory": "Database",
+            "rank": "2"
+        },
+        {
+            "name": "git",
+            "catagory": "SourceControl",
+            "rank": "1"
+        },
+        {
+            "name": "TFS",
+            "catagory": "SourceControl",
+            "rank": "2"
+        },
+        {
+            "name": "SVN",
+            "catagory": "SourceControl",
+            "rank": "3"
+        }
     ],
     "skills": [
         "Test Driven Design",
@@ -34,7 +86,8 @@
         "Creating architectures bassed off classic Design Patterns",
         "Managing Developers",
         "kiss!",
-        "managing techinical debt"
+        "managing techinical debt",
+        "build engineering"
     ],
     "workHistory": [
         {
@@ -54,10 +107,9 @@
             "endDate": "2017-01-05",
             "responsibilities": [
                 "Architected and Implemented a system for automatically assigning Primary Care Physicians to new customers",
-                "Responsible designing and maintaining automated unit and integration tests",
+                "Responsible for designing and maintaining automated unit and integration tests",
                 "Created several front end web pages for customer facing access to reporting and configuration data, using WebAPI and Angular",
-                "Maintained automated builds using Bamboo",
-                "Designing and maintained automated unit and integration tests"
+                "Maintained automated builds using Bamboo"
             ]
         },
         {
@@ -69,7 +121,7 @@
                 "zip": "",
                 "phone": "",
                 "logo": "InnovaSystemsLogo.png",
-                "logoStyle": "height: 30px;",
+                "logoStyle": "height: 33px;",
                 "website": "http://www.innovasi.com/"
             },
             "title": "Lead Software Engineer",
@@ -140,7 +192,10 @@
             "institution": {
                 "name" : "Old Dominion University",
                 "city" : "Norfolk",
-                "state": "Virginia"
+                "state": "Virginia",
+                "logo": "OldDominionUniversityLogo.png",
+                "logoStyle": "height: 40px;",
+                "website": "https://www.odu.edu/"
             },
             "degree" : "B.S. in Computer Engineering",
             "minor" : "Computer Science",

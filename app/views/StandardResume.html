@@ -1,12 +1,20 @@
 <div>
-    <h2>Objective</h2>
-    <div>{{data.objective}}</div>
+    <h2>Profile</h2>
+    <div>{{data.statement}}</div>
+
+    <h2>Skills</h2>
+    <ul class="list-unstyled">
+        <li ng-repeat="skill in data.skills">
+            <span class="glyphicon glyphicon-minus darkgreen">&nbsp</span>
+            <span>{{skill}}</span>
+        </li>
+    </ul>
 
     <h2>Technology</h2>
     <div class="row">
         <div ng-repeat="catagory in getTechCatagories()" class="col-lg-2 col-md-lg-3 col-sm-4 col-xs-6">
             <h4>{{catagory}}</h4>
-            <div ng-repeat="tech in getTech(catagory)">{{tech.name}}</div>
+            <div ng-repeat="tech in getTech(catagory) | orderBy : rank">{{tech.name}}</div>
         </div>
     </div>
 
@@ -22,15 +30,20 @@
         </div>
         <ul class="list-unstyled">
             <li ng-repeat="item in job.responsibilities">
-                <span class="glyphicon glyphicon-minus darkgreen"></span>
+                <span class="glyphicon glyphicon-minus darkgreen">&nbsp</span>
                 <span class="">{{item}}</span>
             </li>
         </ul>
+        <br>
     </div>
     <h2>Education</h2>
     <div ng-repeat="school in data.education">
-        <span ng-include="'app/views/SchoolLogo.html'"></span>
-        <strong>{{school.degree}}, Minor in {{school.minor}}</strong>
-        {{school.institution.city}}, {{school.institution.state}} ... {{school.graduationDate | date: 'MMM yyyy'}}
+        <div ng-include="'app/views/SchoolLogo.html'" class="hidden-md hidden-lg"></div>
+        <div>
+            <span ng-include="'app/views/SchoolLogo.html'" class="hidden-sm hidden-xs"></span>
+            <span class="darkgreen hidden-sm hidden-xs">&nbsp&nbsp|&nbsp&nbsp</span>
+            <strong>{{school.degree}}, Minor in {{school.minor}}</strong>
+            <span>{{school.institution.city}}, {{school.institution.state}} ... {{school.graduationDate | date: 'MMM yyyy'}}</span>
+        </div>
     </div>
 </div>

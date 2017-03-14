@@ -38,3 +38,7 @@ a {
 strong {
   color: #777;
 }
+
+li {
+  padding: 2px 0px 2px 0px;
+}

@@ -10,8 +10,8 @@
         "email": "scotthodgin@gmail.com",
         "title": "developer"
     },
-    "objective": "Seeking a High Level Software Developer position that focuses on writing object oriented unit testable code.",
-    "statement": "statement",
+    "objective": "Seeking a High Level Software Developer position that focuses on writing object oriented, unit testable code.",
+    "statement": "Software Engineer with 9+ yeas of experience in full stack software developement with a primary focus on writing testable/maintainable code.",
     "technology": [
         {
             "name": "HTML 5",
@@ -19,7 +19,7 @@
             "rank": "1"
         },
         {
-            "name": "javascript",
+            "name": "Javascript",
             "catagory": "Frontend",
             "rank": "2"
         },
@@ -29,7 +29,7 @@
             "rank": "3"
         },
         {
-            "name": "Angular",
+            "name": "Angularjs",
             "catagory": "Frontend",
             "rank": "4"
         },
@@ -39,12 +39,12 @@
             "rank": "1"
         },
         {
-            "name": "web API",
+            "name": "Web API",
             "catagory": "Backend",
             "rank": "2"
         },
         {
-            "name": "linq",
+            "name": "Linq",
             "catagory": "Backend",
             "rank": "3"
         },
@@ -64,7 +64,7 @@
             "rank": "2"
         },
         {
-            "name": "git",
+            "name": "Git",
             "catagory": "SourceControl",
             "rank": "1"
         },
@@ -80,14 +80,11 @@
         }
     ],
     "skills": [
-        "Test Driven Design",
-        "Dependency Injection",
-        "Mocking Frameworks",
-        "Creating architectures bassed off classic Design Patterns",
-        "Managing Developers",
-        "kiss!",
-        "managing techinical debt",
-        "build engineering"
+        "Test Driven Development - (Unit/Integration tests w Dependency Injection, Mocks)",
+        "Architecture - (OOD, Design Patters, Solid, Domian Driven Design, KISS)",
+        "Build Engineering (Automated builds with Continuos Integration and unit tests)",
+        "Agile Development",
+        "Techinical Debt Management"
     ],
     "workHistory": [
         {
@@ -106,10 +103,13 @@
             "startDate": "2014-09-02",
             "endDate": "2017-01-05",
             "responsibilities": [
-                "Architected and Implemented a system for automatically assigning Primary Care Physicians to new customers",
-                "Responsible for designing and maintaining automated unit and integration tests",
-                "Created several front end web pages for customer facing access to reporting and configuration data, using WebAPI and Angular",
-                "Maintained automated builds using Bamboo"
+                "Architected and implemented a system for automatically assigning Primary Care Physicians to new customers",
+                "Responsible for major design decisions, primary development, and the deligation of additional work to shared developer resourses", 
+                "Created backend server applications in C# complete with unit and integration",
+                "Stood up restful services using Web API and json",
+                "Utilized Angular JS to create several front end web pages for customer facing dashboards and reporting",
+                "Leveraged the Bootstrap framework to allow for consistent responsive layouts across all web apps",
+                "Mainted a continuous integration server using Bamboo"
             ]
         },
         {
@@ -132,7 +132,7 @@
                 "Created web pages using HTML, Javascript, jQuery and CSS",
                 "Created server side .NET code responsible for providing  communication between SQL server databases and the user facing web pages",
                 "Initiated a three year effort to modernize a legacy web application and eliminate technical debt",
-                "Redesigned a web application’s architecture to use a tiered architecture consisting of data access, business services, and user interface layers",
+                "Redesigned web application to use a tiered architecture consisting of data access, business services, and user interface layers",
                 "Integrated Entity Framework into the application as the primary data access technology",
                 "Upgraded the products build infrastructure to TFS 2010 Workflow builds",
                 "Created WIX installers for the product and all of its supporting services",

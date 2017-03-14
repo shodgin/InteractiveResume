@@ -12,9 +12,9 @@
 
     <h2>Technology</h2>
     <div class="row">
-        <div ng-repeat="catagory in getTechCatagories()" class="col-lg-2 col-md-lg-3 col-sm-4 col-xs-6">
-            <h4>{{catagory}}</h4>
-            <div ng-repeat="tech in getTech(catagory) | orderBy : rank">{{tech.name}}</div>
+        <div ng-repeat="category in getTechCategories()" class="col-lg-2 col-md-lg-3 col-sm-4 col-xs-6">
+            <h4>{{category}}</h4>
+            <div ng-repeat="tech in getTech(category) | orderBy : rank">{{tech.name}}</div>
         </div>
     </div>
 

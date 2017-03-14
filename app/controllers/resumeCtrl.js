@@ -3,16 +3,16 @@ app.controller('resumeCtrl', function($scope, ResumeLoader){
         .then(function(response) {
             $scope.data = response.data;
         });
-    $scope.getTech = function(catagory) {
-        return $scope.data.technology.filter(function(tech) {return tech.catagory === catagory});
+    $scope.getTech = function(category) {
+        return $scope.data.technology.filter(function(tech) {return tech.category === category});
     };
-    $scope.getTechCatagories = function(){      
-        var catagories = {};
+    $scope.getTechCategories = function(){      
+        var categories = {};
 
         for (var i in $scope.data.technology){
-            catagories[$scope.data.technology[i].catagory] = true;
+            categories[$scope.data.technology[i].category] = true;
         }
 
-        return Object.keys(catagories);
+        return Object.keys(categories);
     };
 });

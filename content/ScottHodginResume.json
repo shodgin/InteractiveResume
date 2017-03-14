@@ -11,80 +11,80 @@
         "title": "developer"
     },
     "objective": "Seeking a High Level Software Developer position that focuses on writing object oriented, unit testable code.",
-    "statement": "Software Engineer with 9+ yeas of experience in full stack software developement with a primary focus on writing testable/maintainable code.",
+    "statement": "Software Engineer with 9+ yeas of experience in full stack software development with a primary focus on writing testable/maintainable code.",
     "technology": [
         {
             "name": "HTML 5",
-            "catagory": "Frontend",
+            "category": "Frontend",
             "rank": "1"
         },
         {
             "name": "Javascript",
-            "catagory": "Frontend",
+            "category": "Frontend",
             "rank": "2"
         },
         {
             "name": "jQuery",
-            "catagory": "Frontend",
+            "category": "Frontend",
             "rank": "3"
         },
         {
-            "name": "Angularjs",
-            "catagory": "Frontend",
+            "name": "AngularJs",
+            "category": "Frontend",
             "rank": "4"
         },
         {
             "name": "C# .net",
-            "catagory": "Backend",
+            "category": "Backend",
             "rank": "1"
         },
         {
             "name": "Web API",
-            "catagory": "Backend",
+            "category": "Backend",
             "rank": "2"
         },
         {
             "name": "Linq",
-            "catagory": "Backend",
+            "category": "Backend",
             "rank": "3"
         },
         {
             "name": "Python",
-            "catagory": "Backend",
+            "category": "Backend",
             "rank": "4"
         },
         {
             "name": "SQL Server",
-            "catagory": "Database",
+            "category": "Database",
             "rank": "1"
         },
         {
             "name": "Oracle",
-            "catagory": "Database",
+            "category": "Database",
             "rank": "2"
         },
         {
             "name": "Git",
-            "catagory": "SourceControl",
+            "category": "SourceControl",
             "rank": "1"
         },
         {
             "name": "TFS",
-            "catagory": "SourceControl",
+            "category": "SourceControl",
             "rank": "2"
         },
         {
             "name": "SVN",
-            "catagory": "SourceControl",
+            "category": "SourceControl",
             "rank": "3"
         }
     ],
     "skills": [
         "Test Driven Development - (Unit/Integration tests w Dependency Injection, Mocks)",
-        "Architecture - (OOD, Design Patters, Solid, Domian Driven Design, KISS)",
+        "Architecture - (OOD, Design Patters, Solid, Domain Driven Design, KISS)",
         "Build Engineering (Automated builds with Continuos Integration and unit tests)",
         "Agile Development",
-        "Techinical Debt Management"
+        "Technical Debt Management"
     ],
     "workHistory": [
         {
@@ -104,12 +104,12 @@
             "endDate": "2017-01-05",
             "responsibilities": [
                 "Architected and implemented a system for automatically assigning Primary Care Physicians to new customers",
-                "Responsible for major design decisions, primary development, and the deligation of additional work to shared developer resourses", 
+                "Responsible for major design decisions, primary development, and the delegation of additional work to shared developer resources", 
                 "Created backend server applications in C# complete with unit and integration",
                 "Stood up restful services using Web API and json",
                 "Utilized Angular JS to create several front end web pages for customer facing dashboards and reporting",
                 "Leveraged the Bootstrap framework to allow for consistent responsive layouts across all web apps",
-                "Mainted a continuous integration server using Bamboo"
+                "Maintained a continuous integration server using Bamboo"
             ]
         },
         {
@@ -148,11 +148,11 @@
                 "state": "",
                 "zip": "",
                 "phone": "",
-                "logo": "LibertyTaxLogo.svg",
+                "logo": "LibertyTaxLogo.png",
                 "logoStyle": "height: 30px;margin-top: -15px;",
                 "website": "https://www.libertytax.com/"
             },
-            "title": "Software Devloper",
+            "title": "Software Developer",
             "startDate": "2007-09-03",
             "endDate": "2011-04-01",
             "responsibilities": [
